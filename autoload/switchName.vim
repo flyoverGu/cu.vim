@@ -43,5 +43,5 @@ endfunction
 " data_pick dataPick
 " DataPick dataPick
 
-command! -nargs=0 -range Underscore call SwitchName('_')
-command! -nargs=0 -range Camel call SwitchName('+')
+command! -nargs=0 -range Underscore call switchName#SwitchName('_')
+command! -nargs=0 -range Camel call switchName#SwitchName('+')
