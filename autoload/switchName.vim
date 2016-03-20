@@ -1,4 +1,4 @@
-function! SwitchName(flag)
+function! switchName#SwitchName(flag)
 python << EOF
 import vim
 
