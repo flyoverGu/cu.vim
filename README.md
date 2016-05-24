@@ -1,5 +1,15 @@
-### vim plugin
-vim 下划线和驼峰风格互转   
+#cu.vim 
+Vim's plugin to convert between camelCase and underscoreCase.
+
+## Installation
+
+#### Vundle
+
+```vim
+Plugin 'git@github.com:flyoverGu/cu.vim.git'
+```
+
+## Usage
 
 ```
 :Underscore 
